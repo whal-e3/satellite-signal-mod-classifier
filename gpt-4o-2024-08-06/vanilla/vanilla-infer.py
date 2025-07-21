@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import os
 from pathlib import Path
 from openai import OpenAI
@@ -8,7 +7,8 @@ import base64
 import io
 
 # === SETUP ===
-client = OpenAI(api_key="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")
+openai_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=openai_key)
 ROOT_DIR = Path("/mnt/d/mlwhale-share/rf-sat-hack/signal_dataset/MAIN/custom/image_dataset/image_clean_signal_training0704")
 
 # Prompt
