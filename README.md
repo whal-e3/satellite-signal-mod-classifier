@@ -1,4 +1,4 @@
-# Satellite AMC (Automatic Modulation Classifier) Identifier 
+# Satellite AMC (Automatic Modulation Classifier) using VLM models
 
 The repo contains attempts on creating VLM model that does Satellite AMC.
 The attempts includes both vanilla use and fine-tuning on various VLM AI models.
