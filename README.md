@@ -1,16 +1,12 @@
-# Research on AMC using VLM for SCI Paper
+# Satellite AMC (Automatic Modulation Classifier) Identifier 
+
+The repo contains attempts on creating VLM model that does Satellite AMC.
+The attempts includes both vanilla use and fine-tuning on various VLM AI models.
+The repo also includes the performance results of the models.
 
 ## Modulation List
+The modulation schemes that are used are like below.
 
 - WBFM, NBFM, BPSK, QPSK, 8PSK, 16APSK, 32APSK, GMSK, CW, CSS, BFSK, GFSK
 
-
-## jsonl 파일 정리
-
-- dataset_all.jsonl: training, inference 모두 포함. (그대로 쓰지 말 것.)
-
-- dataset_training.jsonl: Only training images. (2016.10a, clean)
-
-- dataset_clean_training.jsonl: Only custom clean images for training.
-
-- dataset_clean_training0704.jsonl: Only custom clean images for training made 0704.
+## Repo Directories
