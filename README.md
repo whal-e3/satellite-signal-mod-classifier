@@ -4,11 +4,14 @@ This repo is sharing tools and results of using 3 different VLM models as a Sate
 The repo is also for "AI를 활용한 취약점 발굴 시스템 공모전".
 
 ## 팀원
+---
 
 황선혁 (경희대학교 융합보안대학원 석사과정)
+
 박철준 (경희대학교 컴퓨터공학과 조교수)
 
 ## Descriptions
+---
 
 CLIP, LLaVA, GPT-4o were used for the project. The repo provides scripts and "how to" for fine-tuning and inferencing each models. It also provides the result that's done on the models.
 
@@ -40,6 +43,7 @@ Each modulation signal has 21 different SNR values from -20db to 20db (2db gap).
 
 
 ## Repo Directories
+---
 
 - dataset_sample: Sample image dataset of signal representations.
 
